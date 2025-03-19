@@ -22,7 +22,7 @@ export default function Index() {
             <Text> Error: {movieErrors?.message}</Text>
           ) : (
             <View className="flex-1 mt-5">
-              <Searchbar onPress={() => router.push('/Search')} placeholder='Search for a movie' />
+              <Searchbar value="" onChangeText={() => { }} onPress={() => router.push('/Search')} placeholder='Search for a movie' />
               <>
                 <Text className="text-large text-white  mt-5 mb-3">Latest Movies</Text>
                 <FlatList
