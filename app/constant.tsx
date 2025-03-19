@@ -6,6 +6,7 @@ const IMAGES = {
     highlight: require('./../assets/images/backgr.jpg'),
     bg: require('./../assets/images/bg.jpg'),
     logo: require('./../assets/images/logo.png'),
+    star: require('./../assets/images/star.png'),
 };
 
 

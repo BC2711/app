@@ -36,6 +36,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_MOVIE_API_KEY": "683c1163c6b40f15a806824d0964a5b0"
     }
   }
 }
